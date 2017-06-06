@@ -8,20 +8,24 @@
 
 /* Begin PBXBuildFile section */
 		EF4F4BCB1EE6FAEA00611E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */; };
-		EF4F4BCD1EE6FAEA00611E3C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BCC1EE6FAEA00611E3C /* ViewController.swift */; };
-		EF4F4BD01EE6FAEA00611E3C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BCE1EE6FAEA00611E3C /* Main.storyboard */; };
 		EF4F4BD21EE6FAEA00611E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */; };
 		EF4F4BD51EE6FAEA00611E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */; };
+		EF4F4BDD1EE6FCB300611E3C /* Start.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */; };
+		EF4F4BDF1EE6FE0C00611E3C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */; };
+		EF4F4BE11EE70A4900611E3C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */; };
+		EF4F4BE31EE70BD300611E3C /* default-pupil-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EF4F4BC71EE6FAEA00611E3C /* Instagram Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		EF4F4BCC1EE6FAEA00611E3C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EF4F4BCF1EE6FAEA00611E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EF4F4BD41EE6FAEA00611E3C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EF4F4BD61EE6FAEA00611E3C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Start.storyboard; path = ../Start.storyboard; sourceTree = "<group>"; };
+		EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default-pupil-profile.png"; path = "../default-pupil-profile.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,9 +59,11 @@
 			isa = PBXGroup;
 			children = (
 				EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */,
-				EF4F4BCC1EE6FAEA00611E3C /* ViewController.swift */,
-				EF4F4BCE1EE6FAEA00611E3C /* Main.storyboard */,
+				EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */,
+				EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */,
+				EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */,
 				EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */,
+				EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */,
 				EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */,
 				EF4F4BD61EE6FAEA00611E3C /* Info.plist */,
 			);
@@ -125,7 +131,8 @@
 			files = (
 				EF4F4BD51EE6FAEA00611E3C /* LaunchScreen.storyboard in Resources */,
 				EF4F4BD21EE6FAEA00611E3C /* Assets.xcassets in Resources */,
-				EF4F4BD01EE6FAEA00611E3C /* Main.storyboard in Resources */,
+				EF4F4BE31EE70BD300611E3C /* default-pupil-profile.png in Resources */,
+				EF4F4BDD1EE6FCB300611E3C /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +143,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EF4F4BCD1EE6FAEA00611E3C /* ViewController.swift in Sources */,
+				EF4F4BE11EE70A4900611E3C /* SignUpViewController.swift in Sources */,
+				EF4F4BDF1EE6FE0C00611E3C /* SignInViewController.swift in Sources */,
 				EF4F4BCB1EE6FAEA00611E3C /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +152,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EF4F4BCE1EE6FAEA00611E3C /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EF4F4BCF1EE6FAEA00611E3C /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -299,6 +299,7 @@
 				EF4F4BDB1EE6FAEA00611E3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
