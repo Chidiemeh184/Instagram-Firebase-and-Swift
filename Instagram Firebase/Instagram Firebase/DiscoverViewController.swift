@@ -1,5 +1,5 @@
 //
-//  SignInViewController.swift
+//  DiscoverViewController.swift
 //  Instagram Firebase
 //
 //  Created by Chidi Emeh on 6/6/17.
@@ -8,11 +8,17 @@
 
 import UIKit
 
-class SignInViewController: UIViewController {
+class DiscoverViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
 
     }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
     
+    }
+    
+
 }

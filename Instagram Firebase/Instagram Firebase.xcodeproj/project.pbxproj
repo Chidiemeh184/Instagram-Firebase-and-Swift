@@ -14,6 +14,11 @@
 		EF4F4BDF1EE6FE0C00611E3C /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */; };
 		EF4F4BE11EE70A4900611E3C /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */; };
 		EF4F4BE31EE70BD300611E3C /* default-pupil-profile.png in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */; };
+		EF4F4BE71EE7296E00611E3C /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BE61EE7296E00611E3C /* HomeViewController.swift */; };
+		EF4F4BE91EE729A400611E3C /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BE81EE729A400611E3C /* DiscoverViewController.swift */; };
+		EF4F4BEB1EE729B700611E3C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */; };
+		EF4F4BED1EE729C600611E3C /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */; };
+		EF4F4BEF1EE729D600611E3C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +31,11 @@
 		EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "default-pupil-profile.png"; path = "../default-pupil-profile.png"; sourceTree = "<group>"; };
+		EF4F4BE61EE7296E00611E3C /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HomeViewController.swift; path = ../HomeViewController.swift; sourceTree = "<group>"; };
+		EF4F4BE81EE729A400611E3C /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
+		EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
+		EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
+		EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,8 +69,13 @@
 			isa = PBXGroup;
 			children = (
 				EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */,
+				EF4F4BE61EE7296E00611E3C /* HomeViewController.swift */,
 				EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */,
 				EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */,
+				EF4F4BE81EE729A400611E3C /* DiscoverViewController.swift */,
+				EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */,
+				EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */,
+				EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */,
 				EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */,
 				EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */,
 				EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */,
@@ -146,6 +161,11 @@
 				EF4F4BE11EE70A4900611E3C /* SignUpViewController.swift in Sources */,
 				EF4F4BDF1EE6FE0C00611E3C /* SignInViewController.swift in Sources */,
 				EF4F4BCB1EE6FAEA00611E3C /* AppDelegate.swift in Sources */,
+				EF4F4BE71EE7296E00611E3C /* HomeViewController.swift in Sources */,
+				EF4F4BED1EE729C600611E3C /* ActivityViewController.swift in Sources */,
+				EF4F4BE91EE729A400611E3C /* DiscoverViewController.swift in Sources */,
+				EF4F4BEF1EE729D600611E3C /* ProfileViewController.swift in Sources */,
+				EF4F4BEB1EE729B700611E3C /* CameraViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
