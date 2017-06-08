@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EF1094421EE8CD4100E09025 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1094411EE8CD4100E09025 /* Main.storyboard */; };
+		EF1094441EE8CF1300E09025 /* Home.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1094431EE8CF1300E09025 /* Home.storyboard */; };
+		EF1094461EE8CFAE00E09025 /* Discover.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1094451EE8CFAE00E09025 /* Discover.storyboard */; };
+		EF1094481EE8D04600E09025 /* Camera.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1094471EE8D04600E09025 /* Camera.storyboard */; };
+		EF10944A1EE8D09A00E09025 /* Activity.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF1094491EE8D09A00E09025 /* Activity.storyboard */; };
+		EF10944C1EE8D0EF00E09025 /* Profile.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF10944B1EE8D0EF00E09025 /* Profile.storyboard */; };
+		EF1094501EE8E37000E09025 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF10944F1EE8E37000E09025 /* GoogleService-Info.plist */; };
 		EF4F4BCB1EE6FAEA00611E3C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */; };
 		EF4F4BD21EE6FAEA00611E3C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */; };
 		EF4F4BD51EE6FAEA00611E3C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EF1094411EE8CD4100E09025 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = SOURCE_ROOT; };
+		EF1094431EE8CF1300E09025 /* Home.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Home.storyboard; sourceTree = "<group>"; };
+		EF1094451EE8CFAE00E09025 /* Discover.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Discover.storyboard; sourceTree = SOURCE_ROOT; };
+		EF1094471EE8D04600E09025 /* Camera.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Camera.storyboard; sourceTree = "<group>"; };
+		EF1094491EE8D09A00E09025 /* Activity.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Activity.storyboard; sourceTree = SOURCE_ROOT; };
+		EF10944B1EE8D0EF00E09025 /* Profile.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Profile.storyboard; sourceTree = "<group>"; };
+		EF10944F1EE8E37000E09025 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		EF4F4BC71EE6FAEA00611E3C /* Instagram Firebase.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Instagram Firebase.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +63,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		EF10944D1EE8DEAB00E09025 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */,
+				EF1094411EE8CD4100E09025 /* Main.storyboard */,
+				EF10944B1EE8D0EF00E09025 /* Profile.storyboard */,
+				EF1094491EE8D09A00E09025 /* Activity.storyboard */,
+				EF1094471EE8D04600E09025 /* Camera.storyboard */,
+				EF1094451EE8CFAE00E09025 /* Discover.storyboard */,
+				EF1094431EE8CF1300E09025 /* Home.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		EF10944E1EE8DEBC00E09025 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				EF4F4BE61EE7296E00611E3C /* HomeViewController.swift */,
+				EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */,
+				EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */,
+				EF4F4BE81EE729A400611E3C /* DiscoverViewController.swift */,
+				EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */,
+				EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */,
+				EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
 		EF4F4BBE1EE6FAEA00611E3C = {
 			isa = PBXGroup;
 			children = (
@@ -69,17 +111,12 @@
 			isa = PBXGroup;
 			children = (
 				EF4F4BCA1EE6FAEA00611E3C /* AppDelegate.swift */,
-				EF4F4BE61EE7296E00611E3C /* HomeViewController.swift */,
-				EF4F4BDE1EE6FE0C00611E3C /* SignInViewController.swift */,
-				EF4F4BE01EE70A4900611E3C /* SignUpViewController.swift */,
-				EF4F4BE81EE729A400611E3C /* DiscoverViewController.swift */,
-				EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */,
-				EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */,
-				EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */,
-				EF4F4BDC1EE6FCB300611E3C /* Start.storyboard */,
+				EF10944E1EE8DEBC00E09025 /* ViewControllers */,
+				EF10944D1EE8DEAB00E09025 /* Storyboards */,
 				EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */,
 				EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */,
 				EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */,
+				EF10944F1EE8E37000E09025 /* GoogleService-Info.plist */,
 				EF4F4BD61EE6FAEA00611E3C /* Info.plist */,
 			);
 			path = "Instagram Firebase";
@@ -145,8 +182,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				EF4F4BD51EE6FAEA00611E3C /* LaunchScreen.storyboard in Resources */,
+				EF10944A1EE8D09A00E09025 /* Activity.storyboard in Resources */,
+				EF10944C1EE8D0EF00E09025 /* Profile.storyboard in Resources */,
+				EF1094481EE8D04600E09025 /* Camera.storyboard in Resources */,
+				EF1094421EE8CD4100E09025 /* Main.storyboard in Resources */,
 				EF4F4BD21EE6FAEA00611E3C /* Assets.xcassets in Resources */,
+				EF1094441EE8CF1300E09025 /* Home.storyboard in Resources */,
 				EF4F4BE31EE70BD300611E3C /* default-pupil-profile.png in Resources */,
+				EF1094501EE8E37000E09025 /* GoogleService-Info.plist in Resources */,
+				EF1094461EE8CFAE00E09025 /* Discover.storyboard in Resources */,
 				EF4F4BDD1EE6FCB300611E3C /* Start.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
