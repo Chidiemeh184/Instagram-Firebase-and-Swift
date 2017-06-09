@@ -26,7 +26,7 @@
 		EF4F4BEB1EE729B700611E3C /* CameraViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */; };
 		EF4F4BED1EE729C600611E3C /* ActivityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */; };
 		EF4F4BEF1EE729D600611E3C /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */; };
-		EF67AE131EE996C700B740B6 /* GoogleService-Info-2.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF67AE121EE996C700B740B6 /* GoogleService-Info-2.plist */; };
+		EF67AE131EE996C700B740B6 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = EF67AE121EE996C700B740B6 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -53,7 +53,7 @@
 		EF4F4BEA1EE729B700611E3C /* CameraViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraViewController.swift; sourceTree = "<group>"; };
 		EF4F4BEC1EE729C600611E3C /* ActivityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActivityViewController.swift; sourceTree = "<group>"; };
 		EF4F4BEE1EE729D600611E3C /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
-		EF67AE121EE996C700B740B6 /* GoogleService-Info-2.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info-2.plist"; sourceTree = "<group>"; };
+		EF67AE121EE996C700B740B6 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +140,7 @@
 				EF4F4BD11EE6FAEA00611E3C /* Assets.xcassets */,
 				EF4F4BE21EE70BD300611E3C /* default-pupil-profile.png */,
 				EF4F4BD31EE6FAEA00611E3C /* LaunchScreen.storyboard */,
-				EF67AE121EE996C700B740B6 /* GoogleService-Info-2.plist */,
+				EF67AE121EE996C700B740B6 /* GoogleService-Info.plist */,
 				EF4F4BD61EE6FAEA00611E3C /* Info.plist */,
 			);
 			path = "Instagram Firebase";
@@ -214,7 +214,7 @@
 				EF1094481EE8D04600E09025 /* Camera.storyboard in Resources */,
 				EF1094421EE8CD4100E09025 /* Main.storyboard in Resources */,
 				EF4F4BD21EE6FAEA00611E3C /* Assets.xcassets in Resources */,
-				EF67AE131EE996C700B740B6 /* GoogleService-Info-2.plist in Resources */,
+				EF67AE131EE996C700B740B6 /* GoogleService-Info.plist in Resources */,
 				EF1094441EE8CF1300E09025 /* Home.storyboard in Resources */,
 				EF4F4BE31EE70BD300611E3C /* default-pupil-profile.png in Resources */,
 				EF1094461EE8CFAE00E09025 /* Discover.storyboard in Resources */,
