@@ -39,11 +39,16 @@ class SignInViewController: UIViewController {
         
         signInButton.isEnabled = false
         handleTextField()
-        
+
         
     }
     
-
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+        if Auth.auth().currentUser != nil {
+            self.performSegue(withIdentifier: "signInToTabbarVC", sender: nil)
+        }
+    }
     
     func handleTextField(){
 
@@ -78,8 +83,6 @@ class SignInViewController: UIViewController {
             self.performSegue(withIdentifier: "signInToTabbarVC", sender: nil)
         }
     }
-    
-    
     
     
 }//End SignIn Vc

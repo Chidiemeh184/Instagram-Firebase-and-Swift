@@ -12,7 +12,7 @@
         <!--Sign In View Controller-->
         <scene sceneID="rHU-1M-qjo">
             <objects>
-                <viewController id="ULl-7L-o1z" customClass="SignInViewController" customModule="Instagram_Firebase" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SignInViewController" id="ULl-7L-o1z" customClass="SignInViewController" customModule="Instagram_Firebase" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="1Z3-5M-5Nc"/>
                         <viewControllerLayoutGuide type="bottom" id="Nmu-Ks-BYq"/>
