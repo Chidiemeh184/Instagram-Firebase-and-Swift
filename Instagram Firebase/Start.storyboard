@@ -52,7 +52,7 @@
                                             <color key="titleColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
                                         </state>
                                         <connections>
-                                            <segue destination="3f3-2Z-bij" kind="presentation" id="Lfm-lF-wPU"/>
+                                            <action selector="signInButton_TouchUpInside:" destination="ULl-7L-o1z" eventType="touchUpInside" id="LiR-Lm-1MA"/>
                                         </connections>
                                     </button>
                                 </subviews>
@@ -94,6 +94,8 @@
                     <connections>
                         <outlet property="emailTextField" destination="EI3-1u-afr" id="6jt-s7-WZM"/>
                         <outlet property="passwordTextField" destination="6SZ-kN-tak" id="DDN-Xh-rkx"/>
+                        <outlet property="signInButton" destination="1HR-2N-Ji6" id="2fI-zu-OdG"/>
+                        <segue destination="3f3-2Z-bij" kind="presentation" identifier="signInToTabbarVC" id="5sN-my-5y2"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="GZI-z0-q83" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -195,7 +197,9 @@
                         <outlet property="emailTextField" destination="0tS-nj-cXb" id="Uoy-cF-Bn7"/>
                         <outlet property="passwordTextField" destination="fg9-Tq-8ph" id="1eB-hg-Bdc"/>
                         <outlet property="profileImage" destination="9ne-u5-ZL2" id="cmF-fj-lQE"/>
+                        <outlet property="signUpButton" destination="q9M-sZ-pkT" id="EIQ-px-Qmo"/>
                         <outlet property="usernameTextField" destination="WCd-mJ-kF0" id="fCv-dB-T42"/>
+                        <segue destination="3f3-2Z-bij" kind="presentation" identifier="signUpToTabbarVC" id="mUl-5A-AoA"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AZb-EM-wfn" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -208,10 +212,13 @@
                 <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="TabBarId" id="3f3-2Z-bij" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="sqo-lN-zMB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-1630" y="-115"/>
+            <point key="canvasLocation" x="-1540" y="-148"/>
         </scene>
     </scenes>
     <resources>
         <image name="default-pupil-profile.png" width="300" height="300"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="5sN-my-5y2"/>
+    </inferredMetricsTieBreakers>
 </document>

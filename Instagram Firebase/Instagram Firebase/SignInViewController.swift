@@ -7,11 +7,13 @@
 //
 
 import UIKit
+import FirebaseAuth
 
 class SignInViewController: UIViewController {
 
     @IBOutlet weak var emailTextField: UITextField!
     @IBOutlet weak var passwordTextField: UITextField!
+    @IBOutlet weak var signInButton: UIButton!
     
     //First Loading Func
     override func viewDidLoad() {
@@ -35,7 +37,73 @@ class SignInViewController: UIViewController {
         bottomLayerPassword.backgroundColor = UIColor(red: 50/255, green: 50/255, blue: 25/255, alpha: 1).cgColor
         passwordTextField.layer.addSublayer(bottomLayerPassword)
         
+        signInButton.isEnabled = false
+        handleTextField()
+        
         
     }
     
-}
+
+    
+    func handleTextField(){
+
+        emailTextField.addTarget(self, action: #selector(SignUpViewController.textFieldDidChange), for: .editingChanged)
+        passwordTextField.addTarget(self, action: #selector(SignUpViewController.textFieldDidChange), for: .editingChanged)
+    }
+    
+    
+    func textFieldDidChange(){
+        guard let email = emailTextField.text, !email.isEmpty,
+            let password = passwordTextField.text, !password.isEmpty else {
+                signInButton.setTitleColor(UIColor.lightText, for: .normal)
+                signInButton.isEnabled = false
+                return
+        }
+        signInButton.setTitleColor(UIColor.white, for: .normal)
+        signInButton.isEnabled = true
+    }
+    
+    func test() {
+        print("Printed from the Sign Up View Controller")
+    }
+    
+    @IBAction func signInButton_TouchUpInside(_ sender: Any) {
+        
+        Auth.auth().signIn(withEmail: emailTextField.text!, password: passwordTextField.text!) { (user, error) in
+            
+            if error != nil {
+                print(error!.localizedDescription)
+                return
+            }
+            self.performSegue(withIdentifier: "signInToTabbarVC", sender: nil)
+        }
+    }
+    
+    
+    
+    
+}//End SignIn Vc
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
